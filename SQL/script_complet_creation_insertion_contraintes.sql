@@ -395,6 +395,4 @@ BEFORE UPDATE OF statut ON affaire
 FOR EACH ROW
 EXECUTE FUNCTION verifier_progression_statut_affaire();
 
--- =========================================================
--- Fin du script complet
--- =========================================================
+
