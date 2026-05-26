@@ -52,14 +52,16 @@ INSERT INTO affaire VALUES
 (101,'Agression nocturne','ouverte','2026-01-18'),
 (102,'Fraude documentaire','en cours','2026-02-02'),
 (103,'Disparition inquiétante','ouverte','2026-02-15'),
-(104,'Trafic local','en cours','2026-03-01');
+(104,'Trafic local','en cours','2026-03-01'),
+(105,'Vandalisme au lycée','ouverte','2026-03-10');
 
 INSERT INTO affecter VALUES
 (1,100,'responsable'),
 (2,101,'responsable'),
 (3,102,'responsable'),
 (11,103,'responsable'),
-(12,104,'responsable');
+(12,104,'responsable'),
+(1,105,'responsable');
 
 INSERT INTO temoin VALUES
 (1,'Haddad','haddad@mail.fr'),
